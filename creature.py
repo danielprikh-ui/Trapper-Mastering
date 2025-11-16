@@ -22,28 +22,28 @@ class CreatureType:
 # Type effectiveness chart (attacker -> defender -> multiplier)
 TYPE_EFFECTIVENESS = {
     CreatureType.FIRE: {
-        CreatureType.GRASS: 4.0,
+        CreatureType.GRASS: 2.0,
         CreatureType.WATER: 0.5,
         CreatureType.FIRE: 0.5,
         CreatureType.ROCK: 0.5,
     },
     CreatureType.WATER: {
-        CreatureType.FIRE: 4.0,
+        CreatureType.FIRE: 2.0,
         CreatureType.GRASS: 0.5,
         CreatureType.WATER: 0.5,
-        CreatureType.GROUND: 4.0,
-        CreatureType.ROCK: 4.0,
+        CreatureType.GROUND: 2.0,
+        CreatureType.ROCK: 2.0,
     },
     CreatureType.GRASS: {
-        CreatureType.WATER: 4.0,
+        CreatureType.WATER: 2.0,
         CreatureType.FIRE: 0.5,
         CreatureType.GRASS: 0.5,
-        CreatureType.GROUND: 4.0,
-        CreatureType.ROCK: 4.0,
+        CreatureType.GROUND: 2.0,
+        CreatureType.ROCK: 2.0,
     },
     CreatureType.ELECTRIC: {
-        CreatureType.WATER: 4.0,
-        CreatureType.FLYING: 4.0,
+        CreatureType.WATER: 2.0,
+        CreatureType.FLYING: 2.0,
         CreatureType.ELECTRIC: 0.5,
         CreatureType.GROUND: 0.0,
     },
