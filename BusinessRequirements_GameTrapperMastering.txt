@@ -48,6 +48,8 @@ Game Play:
     - Collaborate with the development team to implement AI-driven features and improvements.
     - Create _setup.bat that will install all necessary packages and dependencies
     - Create _run.bat that will start 2D GUI game
+    - All unit tests should be in /tests/ folder
+    
 
 # Mile Stones
     - Initial game concept and design document completed.
@@ -62,9 +64,16 @@ Game Play:
     - Create a yaml file with trap types, their effectiveness against different creature types, and upgrade paths.
     - Create a yaml file with berry types, their effects on creatures, and availability in different locations.
     - Create a yaml file with probabilities of capturing creatures based on trap type, creature behavior, and environmental factors.
+    - Create a folder /assets/creatures/ with subfolders for each environment containing creature sprites and animations.
+    - Create a folder /assets/traps/ with sprites and animations for each trap type and upgrade level.  
+    - Create a folder /assets/berries/ with sprites and animations for each berry type.
+    - Create a folder /assets/environments/ with background images and environmental effects for each location.
+    - Graphical assets should be in PNG format with transparent backgrounds where applicable.
 
 # Technical Requirements
     - This should be 2D game with a graphical interface
+    - On the right side of the screen, there will be a panel showing the inventory, including traps, berries, and captured creatures.
+    - Also display a vertical list (on the right) with keyboard shortcuts that explain all controls
 
     - The game will be developed using a cross-platform game engine (e.g., Unity or Unreal Engine).
     - The game will support both single-player and multiplayer modes.
